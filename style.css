@@ -1,0 +1,298 @@
+/*Esqueleto de pagina*/
+*{
+    margin: 0;
+}
+
+body{
+    min-height: 100%;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400%;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-rows: 50vh 100vh 170vh 30vh;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.contenidoR{
+    display: grid;
+    grid-template-rows: 22.5% 22.5% 22.5% 22.5% 10%;
+}
+
+/*Diseño Header*/
+
+header{
+    margin-bottom: 1%;
+}
+
+.contenedor header{
+    background-image: url(./img/Mis\ viajes\ \(4\).png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain ;
+}
+
+.logo{
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.logo p{
+    font-size: 5vh;
+    color: white;
+}
+
+.logo2{
+    display: flex;
+    align-self: center;
+}
+
+.fondoT{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*Diseño main*/
+
+.main{
+    margin-left: 11%;
+    margin-top: 0;
+    margin-right: 11%;
+}
+
+main p{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 7%;
+    width: 100%;
+    color: white;
+    font-size: 150%
+}
+
+.magdalena{
+    background-image: url(./img/santamarta.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 39%;
+    height: 55%;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.antioquia{
+    background-image: url(./img/antioquia.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 29%;
+    height: 41%;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 1%;
+    position: relative;
+    left: 40%;
+    bottom: 56.5%;
+}
+
+.amazonas{
+    background-image: url(./img/Amazonas.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 30%;
+    height: 41%;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 1%;
+    position: relative;
+    left: 70%;
+    bottom: 97.5%;
+}
+
+.santander{
+    background-image: url(./img/Santander.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 39%;
+    height: 42%;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 1%;
+    position: relative;
+    bottom: 81%;
+}
+
+.arauca{
+    background-image: url(./img/arauca2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 60%;
+    height: 57%;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 1%;
+    position: relative;
+    left: 40%;
+    bottom: 138%;
+}
+
+main a{
+    text-decoration: none;
+    color: white;
+}
+
+main div:hover{
+
+    box-shadow: 0px 0px 15px 5px;
+    
+}
+
+/* Diseño de la section */
+
+section{
+    margin-left: 11%;
+    margin-top: 10%;
+    margin-right: 11%;
+}
+
+.stmarta, .bogota, .llanos, .buga{
+    border-bottom: solid 1px #79FF39;
+}
+
+section h2{
+    color: #526DFF;
+}
+
+.i1, .i2, .i3, .i4{
+    width: 100%;
+    height: 75%;
+}
+
+.stmarta, .bogota, .llanos, .buga{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    margin-left: 1%;
+}
+
+.info div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info a{
+    text-decoration: none;
+}
+
+.info a:hover{
+    text-decoration: underline;
+}
+
+/*Diseño aside*/
+
+aside{
+    display: grid;
+    grid-template-rows: 20% 25% 30% 25%;
+}
+
+.i5{
+    width: 68%;
+    margin-bottom: 5%;
+}
+
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-size: 80%;
+}
+
+.anuncio{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.anuncio2{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.comentarios{
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 70%;
+}
+
+.ic{
+    width: 100%;
+    margin-top: 1%;
+}
+
+.Contenidocc{
+    display: flex;
+}
+
+.Contenidocc p{
+    align-self: center;
+    margin: 2%;
+}
+
+/*Diseño footer*/
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: end;
+}
+
+footer h4{
+    color: white;
+}
+
+footer i{
+    color: white;
+    width: 15%;
+}
+
+footer .boton{
+    margin: 0;
+    padding: 0.3%;
+    position: absolute;
+    right: 16.7%;
+    top: 332.4%;
+    width: 5%;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.text{
+    padding: 2.8%;
+    width: 120%;
+    border-radius: 5px;
+}
+
+footer .formulario{
+    margin-top: 4%;
+    margin-right: 20%;
+}
